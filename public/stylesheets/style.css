@@ -1,8 +1,56 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+#wrap {width: 100%; min-width: 1500px;}
 
-a {
-  color: #00B7FF;
+#header {
+  width: 100%; height: 100px; position: absolute; left: 0; top: 0;
+  background-color: #dcdcdc; z-index: 100;
 }
+#header h1 {position: absolute; top: 15px; left: 3%;}
+#nav {position: absolute; top: 15px; right: 3%;}
+#gnb {}
+#gnb p {font-size: 30px;}
+
+
+#container {width: 100%; position: relative;}
+#home {width: 100%; background-color: #B2DFDB;}
+
+.inner-1180 {width: 1180px;margin: auto;}
+section {height: 1000px;}
+section h2 {font-size: 25px; padding-top: 20px;}
+#adf-05 {background-color: #80CBC4;}
+#adf-06 {background-color: #4DB6AC;}
+#sadf-01 {background-color: #26A69A;}
+#duck-down {background-color: #64B5F6;}
+#sadf-t1 {background-color: #2196F3;}
+#sadf-t1-2 {background-color: #1976D2;}
+
+#paging { position: absolute; position: fixed; left: 80px; top: 20%; }
+#paging li {margin-bottom: 10px; position: relative;}
+#paging li:after {
+  content: ""; width: 20px; height: 20px; border-radius: 50%;
+  background-color: #419299;
+  position: absolute; top: 5px; left: -25px;
+}
+#paging li a {font-size: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
